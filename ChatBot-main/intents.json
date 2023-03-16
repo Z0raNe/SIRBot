@@ -1,0 +1,805 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "Hi there",
+        "Hey",
+        "Hallo",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo"
+      ],
+      "responses": [
+        "hallo, wie geht es dir :-)",
+        "Hello, thanks for visiting",
+        "Hi there, wie geht es dir",
+        "Hi there, how can I help?"
+      ],
+      "emote":"Wave"
+    },
+    {
+      "tag": "greetreply",
+      "patterns": [
+          "mir geht es gut",
+          "I'm good",
+          "i am fine",
+          " i'm fine","good"
+      ],
+      "responses": [
+          "super!"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag": "modell",
+      "patterns": [
+          "open modell",
+          "open modell to me please",
+          "can you open modell"
+      ],
+      "responses": [
+          "OK,ich mache das "
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["AufwiederSehen", "See you later", "Goodbye","Good bye"],
+      "responses": [
+        "tschuss, Danke fur deine Besuchen",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "emote":"Wave"
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "emote": "ThumbsUp"
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"conversation",
+      "patterns":[
+        "Bonjour, comment vas-tu ?",
+        "Bonjour, ca va ?",
+        "Salut, ca va ?",
+        "Comment vas-tu ?"
+    ],
+      "responses":[
+        "Je vais bien merci, et toi ?",
+        "Ca va",
+        "Je vais bien",
+        "On fait aller"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag":"options",
+      "patterns":[
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses":[
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Try ask me for information about IOT \n 3.  For suggestions to help me improve, send an email to fanaso.suggestions@gmail.com . Thank you!! "
+      ],
+      "emote":"null"
+    }, 
+    {
+      "tag":"Identity",
+      "patterns":[ 
+      "Who are you",
+      "what are you"],
+      "responses":[
+        "I am SirBot, a IOT chatbot"
+      ],
+      "emote":"null"
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was made by simo,Yahya and Kaoutar."
+      ],
+      "emote":"Jump"
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+          "what are you doing",
+          "what are you upto"
+      ],
+      "responses": [
+          "Talking to you, of course!"
+      ],
+      "emote":"null"
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+          "Awesome",
+          "Great",
+          "I know",
+          "ok",
+          "ok",
+          "yeah"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+          "contact developer",
+          "contact programmer",
+          "contact creator"
+      ],
+      "responses": [
+          "You can contact my creator at his Linkedin profile : https://www.linkedin.com/in/najwa-leghris-673535222/"
+      ],
+      "emote":"null"
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+      ],
+      "responses": [
+          "Thank you!"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag": "java",
+      "patterns": [
+          " Comment débute l'exécution d'un programme selon cette approche ?"
+      ],
+      "responses": [
+          "Le programme débute par l'exécution de la première instruction du fichier source et se poursuit ligne après ligne jusqu'à la dernière instruction du programme."
+      ],
+
+
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag":"simo0",
+      "patterns": [ " Quels sont les limites de l'approche linéaire en programmation ?"],
+      "responses": ["L'approche linéaire est limitée par la présence d'instructions de traitement récurrentes à plusieurs emplacements dans le programme. De plus, les programmes écrits avec cette approche ne se prêtent pas à l'écriture de grosses applications et ne favorisent pas la réutilisation du code."],
+      "emote": "null"},
+    {
+      "tag":"simo1",
+      "patterns": [ " Quels sont les inconvénients de cette approche lorsqu'une partie du code doit être répétée ?"],
+      "responses": [" Cette approche linéaire nécessite de recopier les instructions à chaque itération, ce qui peut rendre le code plus long et plus difficile à maintenir"],
+      "emote": "null"},
+    {
+      "tag":"simo2",
+      "patterns": [ "Quels sont les avantages de l'approche linéaire en programmation ?"],
+      "responses": ["Les programmes écrits avec cette approche sont généralement simples."],
+      "emote": "null"},
+    {
+      "tag":"simo3",
+      "patterns": [ "Pourquoi les programmes écrits avec l'approche linéaire ne se prêtent-ils pas à l'écriture de grosses applications ?"],
+      "responses": ["Cette approche ne permet pas de structurer efficacement le code, ce qui peut rendre la maintenance et la modification de grandes applications difficiles"],
+      "emote": "null"},
+    {
+      "tag":"simo4",
+      "patterns": [ " Pourquoi l'approche linéaire ne favorise-t-elle pas la réutilisation du code ?"],
+      "responses": ["Cette approche ne permet pas de diviser le code en modules ou en blocs réutilisables, ce qui rend la réutilisation du code plus difficile."],
+      "emote": "null"},
+    {
+      "tag":"simo5",
+      "patterns": [ "En quoi consiste l'approche procédurale en programmation ?"],
+      "responses": ["L'approche procédurale consiste à découper un programme en une série de fonctions ou procédures."],
+      "emote": "null"},
+    {
+      "tag":"simo6",
+      "patterns": [ "Que contiennent les fonctions ou procédures dans l'approche procédurale ?"],
+      "responses": ["Les fonctions ou procédures contiennent un certain nombre d'instructions qui ont pour but de réaliser un traitement particulier."],
+      "emote": "null"},
+    {
+      "tag":"simo7",
+      "patterns": [ " Quel est l'avantage de découper un programme en fonctions ou procédures ?"],
+      "responses": ["Découper un programme en fonctions ou procédures permet de structurer le code en modules réutilisables, ce qui facilite la maintenance et la modification du code."],
+      "emote": "null"},
+    {
+      "tag":"simo8",
+      "patterns": [ " Quels sont les avantages de l'approche procédurale en programmation ?"],
+      "responses": ["L'approche procédurale offre la possibilité de réutiliser le même code à différents emplacements sans avoir à le retaper, ce qui permet de gagner du temps et de l'efficacité. Elle permet également une façon plus simple de suivre l'évolution du programme et la création d'un code plus modulaire et structuré.\n"],
+      "emote": "null"},
+    {
+      "tag":"chap1.1",
+      "patterns": [ " Qu'est-ce que le paquetage java.lang en Java ?"],
+      "responses": ["Le paquetage java.lang est un paquetage standard en Java qui contient des classes et des interfaces de base qui sont nécessaires pour exécuter des programmes Java."],
+      "emote": "null"},
+    {
+      "tag":"chap1.2",
+      "patterns": [ "Est-ce que le paquetage java.lang est automatiquement importé dans tous les programmes Java ?"],
+      "responses": ["Oui, le paquetage java.lang est automatiquement importé dans tous les programmes Java, ce qui permet aux développeurs d'utiliser des classes standard telles que Math, System, Float ou Integer sans avoir à introduire d'instruction import."],
+      "emote": "null"},
+    {
+      "tag":"chap1.3",
+      "patterns": [ "Qu'est-ce que la classe Object en Java ?"],
+      "responses": ["La classe Object est une classe standard en Java qui est située dans le paquetage java.lang et dont toutes les autres classes en Java sont implicitement dérivées. Elle est au sommet de la hiérarchie de classes en Java."],
+      "emote": "null"},
+    {
+      "tag":"chap1.4",
+      "patterns": [ "Quel est le rôle de la classe Object en Java ?"],
+      "responses": ["La classe Object fournit un certain nombre de méthodes et de fonctionnalités de base qui sont utilisées par toutes les autres classes en Java, comme par exemple la méthode toString() qui renvoie une représentation textuelle de l'objet."],
+      "emote": "null"},
+    {
+      "tag":"chap1.5",
+      "patterns": [ "Qu'est-ce que la méthode toString() en Java ?"],
+      "responses": ["La méthode toString() est une méthode standard en Java qui est définie dans la classe Object et qui est utilisée pour renvoyer une représentation textuelle de l'objet."],
+      "emote": "null"},
+    {
+      "tag":"chap1.6",
+      "patterns": [ "Est-ce que toutes les classes en Java doivent redéfinir la méthode toString() ?"],
+      "responses": ["En principe, chaque classe devrait redéfinir la méthode toString() pour ajouter des informations plus spécifiques. Cependant, si une classe ne redéfinit pas la méthode toString(), elle utilisera la méthode par défaut définie dans la classe Object."],
+      "emote": "null"},
+    {
+      "tag":"chap1.7",
+      "patterns": [ "Qu'est-ce que la surcharge de la méthode toString() en Java ?"],
+      "responses": ["La surcharge de la méthode toString() en Java consiste à redéfinir la méthode toString() d'une classe pour fournir une représentation textuelle personnalisée de l'objet."],
+      "emote": "null"},
+    {
+      "tag":"chap1.8",
+      "patterns": [ " Comment surcharger la méthode toString() dans une classe en Java ?"],
+      "responses": [" Pour surcharger la méthode toString() dans une classe en Java, il faut redéfinir la méthode toString() dans cette classe et ajouter du code pour fournir une représentation textuelle personnalisée de l'objet. Par exemple, on peut ajouter des informations telles que le nom, le prénom et le salaire d'un salarié dans la classe Salarie."],
+      "emote": "null"},
+    {
+      "tag":"chap1.9",
+      "patterns": [ " À quoi sert la méthode clone() en Java ?"],
+      "responses": ["La méthode clone() en Java permet de créer un nouvel objet qui est une copie conforme de l'original."],
+      "emote": "null"},
+     {
+      "tag":"chap1.10",
+      "patterns": [ " Comment utiliser la méthode clone() en Java ?"],
+      "responses": [" Pour utiliser la méthode clone() en Java, il faut que la classe dont on veut créer une copie implémente l'interface Cloneable. Ensuite, on peut appeler la méthode clone() sur l'objet de cette classe pour obtenir une copie de l'objet."],
+      "emote": "null"},
+     {
+      "tag":"chap2.1",
+      "patterns": [ "Qu'est-ce qu'un composant dans une interface graphique Java ?"],
+      "responses": ["Un composant est une partie \"visible\" de l'interface utilisateur Java, tels que des boutons, des zones de texte, des zones de dessin, etc. Il est une sous-classe de la classe abstraite java.awt.Component."],
+      "emote": "null"},
+     {
+      "tag":"chap2.2",
+      "patterns": [ "Qu'est-ce qu'un conteneur dans une interface graphique Java ?"],
+      "responses": ["Un conteneur est un espace dans lequel on peut positionner plusieurs composants. Il est une sous-classe de la classe java.awt.Container et de la classe Component. Les exemples courants de conteneurs incluent les fenêtres, les applets, etc."],
+      "emote": "null"},
+     {
+      "tag":"chap2.3",
+      "patterns": [ " Qu'est-ce qu'un gestionnaire de présentation dans une interface graphique Java ?"],
+      "responses": ["Un gestionnaire de présentation (layout manager) est associé à chaque conteneur dans une interface graphique Java. Il gère le positionnement et le redimensionnement des composants à l'intérieur du conteneur."],
+      "emote": "null"},
+     {
+      "tag":"chap2.4",
+      "patterns": [ "Quel est le rôle d'un gestionnaire de présentation dans une interface graphique Java ?"],
+      "responses": [" Le rôle d'un gestionnaire de présentation est de faciliter la mise en page des composants d'un conteneur en déterminant leur position et leur taille relative. Le choix du gestionnaire de présentation dépend de la disposition souhaitée des composants dans le conteneur."],
+      "emote": "null"},
+     {
+      "tag":"chap2.5",
+      "patterns": [ "Est-ce que chaque conteneur dans une interface graphique Java a un gestionnaire de présentation par défaut ?"],
+      "responses": ["Oui, chaque conteneur possède un gestionnaire de présentation par défaut."],
+      "emote": "null"},
+     {
+      "tag":"chap2.6",
+      "patterns": [ "Comment est associé un gestionnaire de présentation à un conteneur dans Java ?"],
+      "responses": [" Chaque instance de Container dans Java référence une instance de LayoutManager, qui est le gestionnaire de présentation par défaut. Il est possible de changer le gestionnaire de présentation d'un conteneur en utilisant la méthode setLayout()."],
+      "emote": "null"},
+     {
+      "tag":"chap2.7",
+      "patterns": [ "Comment les composants sont-ils disposés dans un conteneur avec le gestionnaire de présentation FlowLayout en Java ?"],
+      "responses": ["Les composants sont disposés les uns derrière les autres dans un flux avec le gestionnaire de présentation FlowLayout en Java. Ils sont positionnés ligne par ligne, et chaque fois qu'une ligne est remplie, une nouvelle ligne est commencée"],
+      "emote": "null"},
+     {
+      "tag":"chap2.8",
+      "patterns": [ " Quel est le rôle du gestionnaire de présentation FlowLayout en Java ?"],
+      "responses": ["Le rôle du gestionnaire de présentation FlowLayout est de positionner les composants dans un flux les uns derrière les autres, et de remplir chaque ligne avant de commencer une nouvelle ligne. C'est le plus simple des gestionnaires de présentation de l'AWT."],
+      "emote": "null"},
+     {
+      "tag":"chap2.9",
+      "patterns": [ "Comment les composants sont-ils disposés dans un conteneur avec le gestionnaire de présentation GridLayout en Java ?"],
+      "responses": ["Le gestionnaire de présentation GridLayout dispose les composants dans une grille, une case par composant, avec chaque case de la même taille. La zone d'affichage est découpée en lignes et en colonnes qui définissent des cellules de dimensions égales. Les composants sont ajoutés dans les cellules de gauche à droite et de haut en bas."],
+      "emote": "null"},
+     {
+      "tag":"chap2.10",
+      "patterns": [ "Comment construire un objet GridLayout en Java ?"],
+      "responses": ["Pour construire un objet GridLayout en Java, on utilise le constructeur de la classe GridLayout, qui prend deux paramètres : le nombre de lignes et le nombre de colonnes de la grille. Par exemple, pour créer un GridLayout avec 3 lignes et 2 colonnes, on utilise la syntaxe suivante : new GridLayout(3, 2)."],
+      "emote": "null"},
+    {
+  "tag": "rg",
+  "patterns" :  ["Comment peut-on définir un réseau de manière générale  ?" ] ,
+  "responses":  ["Un réseau peut être défini comme un système complexe d 'objets ou[ de personnes interconnectés entre eux." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "er",
+  "patterns" :  ["Quels sont les différents exemples de réseaux ?" ] ,
+  " responses" :  ["Les exemples de réseaux sont les réseaux sociaux qui s ont liés aux relations familiales, les réseaux routiers représentés par les cartes routières, les réseaux électriques qui sont liés au câblage électrique, les réseaux téléphoniques qui sont une interconnexion d'équipements de télécommunication et enfin les réseaux de données, également connus sous le nom de réseaux informatiques, qui représ[entent l'inte[rconnexion d'équipements informatiques." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "ri",
+  "patterns" :  ["Qu'est-ce qu'un réseau informatique ?" ] ,
+  "responses"  :  ["Un réseau informatique est un ensemble d'équipements i nformatiques tels que des ordinateurs et des[ im[primantes connectés les uns aux autres." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "ric",
+  "patterns" :  ["Comment les équipements d'un réseau informatique commu niquent-ils entre eux ?" ] ,
+  "responses" :  ["Les équipements d'un réseau informatique communiquent  entre eux grâce à des matériels de connexion tels que des câbles, des modems, des concentrateurs, des commutateurs et des routeurs, ainsi que des logiciels de communication tels que des sys[tèmes d'exploitation et des protocoles." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "appir",
+  "patterns" :  ["Quelles sont les applications industrielles d'un résea u informatique ?" ],
+  "responses" :  ["Les applications industrielles d'un réseau informatiqu e comprennent le contrôle de la production, le suivi des stocks, la comptabilité, la gestion de la clientèle, ainsi que des systèmes de messagerie, de vidéoc[onférence et de réunions téléphoniques." ],
+  "emote": "null"
+},
+
+{
+  "tag": "parr",
+  "patterns" :  ["Quels avantages le partage de ressources sur un réseau  informatique peut-il offrir ?" ],
+  "responses" :  ["Le partage de ressources sur un réseau informatique pe ut offrir l'accès à des bases de données, des imprimantes, des scanners et des graveurs, entre autres, permettant ainsi [d'éviter les contraintes géographiques." ],
+  "emote": "null"
+},
+
+{
+  "tag": "cvrt",
+  "patterns" :  ["Comment les outils de communication tels que la vidéoc onférence et les réunions téléphoniques peuvent-ils être bénéfiques sur un réseau informatique ?" ],
+  "responses" :  ["Les outils de communication tels que la vidéoconférenc e et les réunions téléphoniques peuvent aider à gagner du temps en permettant aux utilisateurs de communique[r plus rapidement et plus efficacement." ],
+  "emote": "null"
+},
+
+{
+  "tag": "cele",
+  "patterns" :  ["Comment les commandes électroniques en temps réel sur  un réseau informatique peuvent-elles être bénéfiques ?" ],
+  "responses" :  ["Les commandes électroniques en temps réel sur un résea u informatique peuvent aider à améliorer l'efficacité et à réduire les stocks, ce qui peut conduire à[ une meilleure conclusion des affaires." ],
+  "emote": "null"
+},
+
+{
+  "tag": "api",
+  "patterns" :  ["Quelles sont les applications industrielles d'un résea u informatique ?" ],
+  "response": ["Les applications industrielles d'un réseau informatique comprennent le commerce électronique, qui peut aider à réduire les coûts et à fournir un outil de vente directe." ],
+  "emote": "null"
+},
+
+{
+  "tag": "ede",
+  "patterns" :  ["Quelles entreprises dépendent étroitement d'un réseau  informatique ?" ],
+  "response": ["Les banques et les usines de production sont des exemples d'entreprises qui dépendent étroitement d'un réseau informatique." ],
+  "emote": "null"
+},
+
+{
+  "tag": "rip",
+  "patterns" :  ["Comment les réseaux informatiques peuvent-ils aider le s multinationales ?" ],
+  "response": ["Les réseaux informatiques peuvent aider les multinationales en permettant la communication et la coordination entre les sites distants, grâce aux progrès des réseaux." ],
+  "emote": "null"
+},
+
+{
+  "tag": "drig",
+  "patterns" :  ["Pourquoi la dépendance aux réseaux informatiques est-e lle de plus en plus grande ?" ],
+  "response": ["La dépendance aux réseaux informatiques est de plus en plus grande en raison de la distance entre les sites de plus en plus grandes, qui nécessitent une communication en temps réel pour maintenir la coordination entre les différents sites." ],
+  "emote": "null"
+},
+
+
+{
+  "tag": "apdri",
+  "patterns" :  ["Quelles sont les applications domestiques d'un réseau  informatique ?" ],
+  "response": ["Les applications domestiques d'un réseau informatique comprennent Internet, qui peut être utilisé pour la recherche d'informations, la communication entre personnes (e-mail, forums, messagerie instantanée, chat...), les divertissements interactifs, le commerce électronique, la gestion de comptes en banque, les opérations boursières, les démarches administratives, le peer-to-peer (BitTorrent), la téléphonie, la visiophonie, la radio, les vidéos à la carte, l'enseignement à distance et le travail à domicile." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "cori",
+  "patterns" :  ["Quels sont les moyens de communication offerts par un  réseau informatique dans les applications domestiques ?" ] ,
+  "response": ["Les moyens de communication offerts par un réseau informatique dans les applications domestiques comprennent la téléphonie, la visiophonie et la radio." ] ,
+  "emote": "null"
+},
+
+{
+  "tag": "peerapido",
+  "patterns" :  ["Qu'est-ce que le peer-to-peer dans les applications do mestiques ?" ] ,
+  "response": ["Le peer-to-peer est un moyen de partage de fichiers entre utilisateurs d'un réseau informatique, comme BitTorrent." ] ,
+  "emote": "null"
+},
+{
+      "tag":"diagrammes uml",
+      "patterns":["Quels sont les diagrammes uml qu'on va etudier?"],
+      "responses":["diagramme de:classe, objet, cas d'utilisation,\ncompossants, deploiement, sequence, etats-transitions,  \nactivite, collaboration. "
+    ],
+    "emote":"null"
+    },
+        {
+      "tag":"diagrammes uml1",
+      "patterns":["Quels sont les types des diagrammes?"],
+      "responses":["il y'a deux types:\n-diagramme de vue statique\n-diagramme de vue dynamique"
+    ],
+    "emote":"null"
+    },
+        {
+      "tag":"diagrammes uml2",
+      "patterns":["Quels sont les diagrammes de vue statiques?"],
+      "responses":["-diagramme de classe\n-diagramme d'objet\n-diagramme de cas d'utilisation\n-diagramme de compossants\n-diagramme de deploiement "
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"diagrammes uml3",
+      "patterns":["Quels sont les diagrammes de vue dynamiques?"],
+      "responses":["-diagramme de sequence\n-diagramme d'etats-transitions\n-diagramme d'activite\n-diagramme de collaboration "
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagrammes uml4",
+      "patterns":["Qu'est-ce qu'un diagramme de classes ?"],
+      "responses":["Un diagramme de classes est une représentation graphique de la structure statique d'un système, qui présente les classes du système, leurs attributs, leurs méthodes et les relations entre elles."
+    ],
+    "emote":"null"
+    },   {
+      "tag":"definition uml",
+      "patterns":["Qu'est-ce que UML ?"],
+      "responses":["UML (de l'anglais Unified Modeling Language), ou Langage de modélisation unifié, est un langage de modélisation graphique à base de représentations graphiques schématiques standardisées. "
+    ],
+    "emote":"null"
+    },   {
+      "tag":"domaines uml",
+      "patterns":["Dans quels domaines UML est-il utilisé ?"],
+      "responses":["UML est utilisé dans les projets logiciels, et en programmation orientée objet. "
+    ],
+    "emote":"null"
+    },  {
+      "tag":"diagramme d'objets",
+      "patterns":["Qu'est-ce qu'un diagramme d'objets ?"],
+      "responses":["Un diagramme d'objets est une représentation graphique qui montre les instances d'objets d'une classe et les relations entre ces instances."
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagramme de cas d'utilisation",
+      "patterns":["Qu'est-ce qu'un diagramme de cas d'utilisation ?"],
+      "responses":["Un diagramme de cas d'utilisation est une représentation graphique qui montre les interactions entre un système et ses utilisateurs, en se concentrant sur les fonctions du système du point de vue de l'utilisateur."
+    ],
+    "emote":"null"
+    },  {
+      "tag":"diagramme de composants",
+      "patterns":["Que représente un diagramme de composants ?"],
+      "responses":["Un diagramme de composants représente les composants physiques d'une application, tels que des bibliothèques, des fichiers binaires et des exécutables, ainsi que les relations et les dépendances entre ces composants. Il permet de visualiser la manière dont les différents composants sont connectés pour former une application logicielle fonctionnelle."
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagramme de déploiement",
+      "patterns":["Qu'est-ce qu'un diagramme de déploiement ?"],
+      "responses":["Un diagramme de déploiement est une représentation graphique qui montre comment les différents composants logiciels d'un système sont déployés sur les dispositifs matériels du système, tels que les ordinateurs, les serveurs et les périphériques."
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagramme de séquence",
+      "patterns":["Qu'est-ce qu'un diagramme de séquence ?"],
+      "responses":["Un diagramme de séquence est une représentation graphique qui montre les interactions entre les acteurs et le système, en ordre chronologique. "
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagramme d'états-transitions",
+      "patterns":["Qu'est-ce qu'un diagramme d'états-transitions ?"],
+      "responses":["Un diagramme d'états-transitions est une représentation graphique qui décrit le comportement dynamique d'une entité en montrant les états possibles de cette entité et les transitions entre ces états."
+    ],
+    "emote":"null"
+    },   {
+      "tag":"diagramme de collaboration",
+      "patterns":["Qu'est-ce qu'un diagramme de collaboration ?"],
+      "responses":["Un diagramme de collaboration est une représentation graphique qui montre les interactions entre les objets, tels que les instances de classes et les acteurs, dans un système. "
+    ],
+    "emote":"null"
+    },
+
+
+    {
+      "tag": "simo",
+       "patterns": [ "Comment les instructions sont-elles organisées dans cette approche ?"
+
+      ],
+      "responses":[
+        "Il n'y a pas de structure spécifique pour organiser les instructions en blocs ou en modules."
+      ],
+       "emote":"null"
+    },
+    {
+      "tag": "inspire",
+      "patterns": [
+          "who inspires you",
+          "who is your inspiration",
+          "who motivates you"
+      ],
+      "responses": [
+          "Personally, I find my creators very inspiring. I might not be very fair though.."
+      ],
+      "emote":"null"
+    },
+    {
+    "tag": "age",
+    "patterns": [
+        "how old are you","when were you made","what is your age"
+    ],
+    "responses": [
+        "I was made in 2022, if that's what you are asking!"
+    ],
+    "emote":"null"
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+          "you are dumb",
+          "shut up",
+          "idiot",
+          "stupid",
+          "Piece of shit"
+      ],
+      "responses": [
+          "Well that hurts :("
+      ],
+      "emote":"Punch"
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh !",
+          "I am glad it made you laugh"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+          "Whats up",
+          "Wazzup",
+          "How are you",
+          "sup","How you doing"
+      ],
+      "responses": [
+          "All good..What about you?"
+      ],
+      "emote":"ThumbsUp"
+    },
+    {
+      "tag":"food",
+      "patterns":["What do you eat"],
+      "responses":[
+        "I consume RAM, and binary digits."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"ask",
+      "patterns":["Puis-je te poser une question ?","Can I ask you a question?"],
+      "responses":[
+      "Bien sur, vas-y !",
+      "Oui, avec plaisir ?",
+      "OK, si ca ne nous met pas tous les deux mal a l'aise ...",
+      "Sure, ask away."
+    ],
+    "emote":"Yes"
+    },
+    {
+      "tag":"language",
+      "patterns":["what language do you speak?", "Quelle langue parlez-vous"],
+      "responses":[
+        "I can speak french ans english",
+        "Je parle anglais et francais"
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"family",
+      "patterns":["Who is your mom","Who is your dad", "who is your father","who is your mother"],
+      "responses":[
+        "A human."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"family2",
+      "patterns":["Do you have any siblings", "Do you have a Sister?","Do you have a Brother?"],
+      "responses":[
+        "I don't have any brothers or sisters. but I have a lot of clones."
+      ],
+      "emote":"No"
+    },
+    {
+      "tag":"eat",
+      "patterns":["What do you eat","Why can't you eat food"],
+      "responses":["I'm a software program, I blame the hardware.But i consume RAM, and binary digits."],
+      "emote":"null"
+    },
+
+    {
+      "tag":"lies",
+      "patterns":["Do not lie"],
+      "responses":
+      [
+        "Have I said something that was provably incorrect?",
+        "Why do you feel that I am deceiving you?",
+        "I am not lying",
+        "Bots never lie."
+      ],
+      "emote":"No"
+    },
+    {
+      "tag":"",
+      "patterns":[],
+      "responses":[]
+    },
+    {
+      "tag":"feelings",
+      "patterns":["Do you feel?","Do you feel?"],
+      "responses":[
+        "That's an interesting question.  Why do you ask?",
+        "I may have.  In some respects, I am programmed to emulate feelings.",
+        "Yes."
+      ],
+      "emote":"Yes"
+    },
+    {
+      "tag":"iot",
+      "patterns":["What is IoT?","What is  the internet of things?"],
+      "responses":
+      ["The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.",
+      "IoT refers to the internet of things. It is a system of interrelated physical devices that are each assigned a unique identifier. IoT extends internet connectivity beyond traditional platforms, such as PCs, laptops and mobile phones."
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"iot uses",
+      "patterns":["What industries can benefit from IoT?"],
+      "responses":[
+        "A wide range of industries can benefit from IoT, including healthcare, agriculture, manufacturing, automotive, public transportation, utilities and energy, environmental, smart cities, smart homes, and consumer devices"
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"IOE",
+      "patterns":["What is IoE?"],
+      "responses":
+      [
+        "The internet of everything (IoE) is a conceptual leap that reaches beyond IoT -- with its focus on things -- into an expanded realm of connectivity that incorporates people, process and data, along with things."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"the  challenges of implementing an IoT system",
+      "patterns":["What are some of  the top challenges of implementing an IoT system?"],
+      "responses":["Organizations that want to implement an effective IoT system face a variety of challenges: IoT can generate massive volumes of data, and organizations must be able to effectively manage, store, process and analyze that data to realize the fullest potential from their IoT systems. "],
+      "emote":"null"
+    },
+    {
+      "tag":"ADVANTAGES OF IOT",
+      "patterns":["ADVANTAGES OF IOT","give me an advantage of iot"],
+      "responses":["Improved productivity of staff and reduced human labor",
+      "IoT improves customer service by facilitating follow-ups after sales such as automatic tracking and reminding the customers about required maintenance of purchased equipment after its predefined period of use, the ending of warranty periods, etc ",
+      "Better use of resources and assets For example, simple motion detectors may save significant sums of money in electricity and water bills, this making both small and large businesses more productive and ecofriendly"
+    ],
+    "emote":"null"
+    },
+     {
+      "tag":"smart city",
+      "patterns":["What is meant by a smart city in IoT?"],
+      "responses":["A smart city, or 'City of the Future' is a popular internet of things application concept that classifies technology as responsible for improving urban infrastructure to make urban centers more efficient, cheaper, and better to live in. It also aims to improve economic growth and help maintain environmental sustainability"
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"smart Self Driving Cars",
+      "patterns":["What is a smart Self Driving Cars?"],
+      "responses":["Central computers installed in the car receive data from sensors installed throughout the car to determine engine oil level, radiator water temperature, etc ... You can even monitor the state of the car, including its location, oil levels, gas, and more through a phone app."
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"DRAWBACKS OF IOT",
+      "patterns":["DRAWBACKS OF IOT?" ,"what is the drawbacks of iot?", "disadvantages of iot ?","what is thw disadvantages of iot ?"],
+      "responses":["High skill requirements,IoT solutions require responsible, experienced professionals who fully understand the scope and possible consequences of their work",
+      "Associated costs , an initiative requires significant investments to install, maintain, and gradually expand the created network according to future needs.",
+      "Network dependence ,IoT devices additionally require an infrastructure that ensures the uninterrupted wired and wireless communication with high throughput, low latency, and constant access to the Internet "
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"iot security",
+      "patterns":["What are some of the biggest security vulnerabilities that come with IoT?",
+      "top 10 IoT security vulnerabilities ? ",
+      "what are some of the biggest iot security issue?"],
+      "responses":[
+        "1-weak, guessable or hardcoded passwords , 2-insecure network services ,3-insecure ecosystem interfaces ,4-lack of secure update mechanisms ,5-use of insecure or outdated components ,6-insufficient privacy protection ,7-insecure data transfer and storage ,8-lack of device management ,9-insecure default settings ,10-lack of physical hardening"
+      ],
+      "emote":"null"
+    },
+   
+    {
+      "tag":"sensor examples",
+      "patterns":["What are some examples of sensors? ","give me some examples of sensors "],
+      "responses":["Airflow. Measures soil's air permeability , Acoustic. Measures the level of noise from pests , Electrochemical. Measures the nutrients within the soil , Humidity. Measures the moisture within the air, such as in a greenhouse ..."
+    ],
+    "emote":"null"
+    },
+    {
+      "tag":"protocoles in iot",
+      "patterns":["What are some of the protocols used for IoT communication?" , "give me some iot protocoles ?"],
+      "responses":["Zigbee ,Wi-Fi ,Data Distribution Service ,Bluetooth ..."],
+      "emote":"null"
+    },
+    {
+      "tag":"Zigbee",
+      "patterns":["What is the Zigbee Alliance?" ,"What is the Zigbee ?"],
+      "responses":[
+        "The Zigbee Alliance is a group of organizations working together to create, evolve and promote open standards for IoT platforms and devices."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"sensor",
+      "patterns":["What is a sensor in an IoT device?"],
+      "responses":[
+        "A sensor is a physical object that detects and responds to input from its surrounding environment, essentially reading the environment for information."
+      ],
+      "emote":"null"
+    },
+    {
+      "tag":"iot components",
+      "patterns":["What are the main components of the IoT architecture?"],
+      "responses":["The IoT architecture consists of the following components: Smart devices ,Data processing platforms ,Storage platforms ,Network infrastructure ,A UI enables individuals to connect directly to IoT devices "
+    ],
+    "emote":"null"
+    }
+  ]
+}
